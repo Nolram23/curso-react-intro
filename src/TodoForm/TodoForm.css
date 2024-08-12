@@ -1,0 +1,86 @@
+form {
+    position: fixed;
+    top: 0;
+    left: center;
+    width: 90%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.6); /* Fondo difuminado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    margin-right: 10px;
+    animation: slide-in 0.3s ease-out; /* Animación de entrada */
+    max-width: 300px;
+    padding: 33px 40px;
+}
+label{text-align:center;
+    font-weight:700;
+    font-size:20px;
+    color:#fff;
+    margin-bottom:26px}
+
+textarea {
+    font-size:20px;
+    text-align:center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    max-width: 500px;
+    height:96px;
+    width:calc(100% - 25px);
+    z-index: 1001;
+    position: relative;
+    animation: slide-in 0.3s ease-out; /* Animación de entrada */
+}
+textarea::placeholder{
+    color:#a5a5a5;
+    font-family:montserrat;
+    font-weight:400
+}
+textarea:focus{
+    outline-color:#61dafa
+}
+.TodoForm-buttonContainer{
+    margin-top:14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%}
+
+.TodoForm-button{
+    cursor:pointer;
+    display:inline-block;
+    font-size:20px;
+    color:#202329;
+    font-weight:400;
+    width:120px;
+    height:48px;
+    border-radius:8px;
+    border:none;
+    font-family:montserrat
+    }
+
+.TodoForm-button-add{
+    
+    border-radius: 8px;
+    background:#61dafa;
+    box-shadow:0 5px 25px rgba(97,218,250,.5);
+}
+
+.TodoForm-button-cancel{
+    border-radius: 8px;
+}
+
+@keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

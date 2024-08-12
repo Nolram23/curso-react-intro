@@ -1,16 +1,18 @@
-body{margin:0;
-  padding:0;
-  background:#f2f4f5;
-  color:#1e1e1f;
-  font-family:'montserrat',Arial,Helvetica,sans-serif
-}
 
-#root{
-  margin:0 24px;
-  position:relative;
-  min-height:100vh
-}
-.Modal-overlay {
+.ModalBackground {
+    background-color: rgba(32,35,41,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+.ModalBackground-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +25,7 @@ body{margin:0;
     z-index: 1000;
   }
   
-  .Modal-content {
+.ModalBackground-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px; /* Bordes redondeados */
@@ -33,10 +35,10 @@ body{margin:0;
     z-index: 1001;
     position: relative;
     animation: slide-in 0.3s ease-out; /* Animación de entrada */
-  }
+}
   
   /* Animación de entrada */
-  @keyframes slide-in {
+@keyframes slide-in {
     from {
       opacity: 0;
       transform: translateY(-20px);
@@ -45,4 +47,4 @@ body{margin:0;
       opacity: 1;
       transform: translateY(0);
     }
-  } 
+} 
