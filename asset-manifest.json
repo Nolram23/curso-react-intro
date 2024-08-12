@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/curso-react-intro/static/css/main.bbce1e86.css",
-    "main.js": "/curso-react-intro/static/js/main.84e7f53e.js",
-    "index.html": "/curso-react-intro/index.html",
-    "static/media/delete.svg": "/curso-react-intro/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "static/media/check.svg": "/curso-react-intro/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
-    "main.bbce1e86.css.map": "/curso-react-intro/static/css/main.bbce1e86.css.map",
-    "main.84e7f53e.js.map": "/curso-react-intro/static/js/main.84e7f53e.js.map"
+    "main.css": "/react_todomachine/static/css/main.678a5e14.css",
+    "main.js": "/react_todomachine/static/js/main.8a9ebf4b.js",
+    "index.html": "/react_todomachine/index.html",
+    "static/media/Delete.svg": "/react_todomachine/static/media/Delete.8832357d411af579d7fe4b07fd153ede.svg",
+    "static/media/Check.svg": "/react_todomachine/static/media/Check.d21794b8f548f622dfc2c879e2d7dcd9.svg",
+    "main.678a5e14.css.map": "/react_todomachine/static/css/main.678a5e14.css.map",
+    "main.8a9ebf4b.js.map": "/react_todomachine/static/js/main.8a9ebf4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbce1e86.css",
-    "static/js/main.84e7f53e.js"
+    "static/css/main.678a5e14.css",
+    "static/js/main.8a9ebf4b.js"
   ]
 }
